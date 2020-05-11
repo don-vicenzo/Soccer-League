@@ -1,0 +1,116 @@
+html { 
+    background-color: rgb(56, 56, 56);
+    /* background: url(../img/pozadina.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  }
+
+  .container-resize{
+      padding: 0;
+  }
+
+.navbar{
+    background-color: rgba(10, 10, 10, 0.986);
+    font-size: larger;
+}
+
+.navbar a:hover{
+    color: rgb(236, 236, 236);
+}
+
+.textResize{
+    font-size: x-large;
+}
+
+.footer{
+    background-color: rgba(10, 10, 10, 0.986);
+    height: 50px;
+    text-align: center;
+    color: rgb(241, 239, 233);
+    margin: auto;
+    padding: 10px 5px;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.main-img{
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+#mainImage {
+    filter: brightness(50%);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Here is additional style for seasson.php page */
+.seasonMain{
+    height: auto;
+}
+
+.part1{
+    background-color: rgba(0, 0, 0, 0.856);
+    position: relative;
+    padding: 5px 0;
+    color: rgb(255, 255, 255);
+    border: solid rgb(49, 49, 49) 1px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
+}
+
+.formCenter{
+    margin: 0 auto;
+    width:40%;
+}
+
+.part2{
+    background-color: rgba(0, 0, 0, 0.856);
+    position: relative;
+    padding: 20px 10;
+    color: rgb(255, 255, 255);
+    border: solid rgb(49, 49, 49) 1px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
+}
+
+.centerButton{
+    text-align: center;
+}
+
+/* Style for table.php page */
+
+.tableMain{
+    height: 600px;
+}
+
+.rightButton{
+    text-align: end;
+}
+
+
+
+
